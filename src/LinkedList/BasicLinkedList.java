@@ -6,14 +6,14 @@ public class BasicLinkedList {
 
     // by using method ( Method 4 )
     public static void display(Node head){
-        while(head!=null){
+        while(head != null){
             System.out.print(head.data+"->");
             head = head.next;
         }
     }
 
     public static  void recursive(Node head){
-        if(head==null){
+        if(head ==null){
 
         }
     }
